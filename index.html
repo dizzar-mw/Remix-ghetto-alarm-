@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghetto Alarm Remix | Official Project</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Oswald', sans-serif;
+            background: #000 url('image.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .overlay {
+            background: rgba(0, 0, 0, 0.8);
+            width: 90%;
+            max-width: 600px;
+            padding: 30px;
+            border-radius: 15px;
+            border: 2px solid #f2cf07; /* Dancehall gold */
+            text-align: center;
+            box-shadow: 0px 0px 20px rgba(242, 207, 7, 0.4);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #f2cf07;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .patois-tagline {
+            font-style: italic;
+            font-size: 1.2rem;
+            color: #00ff00; /* Vibes green */
+            margin-bottom: 20px;
+        }
+
+        .player-container {
+            background: #222;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        audio {
+            width: 100%;
+            filter: invert(100%) hue-rotate(180deg) brightness(1.5);
+        }
+
+        .notice-box {
+            background: rgba(255, 0, 0, 0.2);
+            border-left: 5px solid #ff0000;
+            padding: 15px;
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .notice-box h2 {
+            font-size: 1.1rem;
+            margin: 0 0 10px 0;
+            color: #ff4444;
+        }
+
+        .btn-contribution {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #f2cf07;
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .btn-contribution:hover {
+            background: #fff;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+<div class="overlay">
+    <h1>Ghetto Alarm Remix</h1>
+    <p class="patois-tagline">"Wake up the city, massive! Pure vibes deh bout."</p>
+
+    <div class="player-container">
+        <p>Listen to the Original Riddim</p>
+        <audio controls>
+            <source src="ghetto_alarm.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <div class="notice-box">
+        <h2>⚠️ Musicians & Collaborators Notice</h2>
+        <p>Respect to every artist stepping into the booth for this remix. To ensure top-tier quality for the streets, every contributor is required to provide a commitment fee of:</p>
+        <p><strong>10,000 Malawi Kwacha</strong></p>
+        <p><small>*This covers both professional audio engineering and the official video production costs.</small></p>
+    </div>
+
+    <p style="margin-top: 20px;">Link up with the team to finalize your verse. Big up!</p>
+    
+    <a href="#" class="btn-contribution">Confirm Your Spot</a>
+</div>
+
+</body>
+</html>
